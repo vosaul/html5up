@@ -17,6 +17,7 @@ gem "jekyll", "~> 4.2.2"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "webrick"
+  gem "jekyll-remote-theme"
   gem "jekyll-seo-tag", "~> 2.8.0"
 end
 
