@@ -1,0 +1,20 @@
+subtitle: Get shady with science
+text: Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.
+cta_name: Join our crew
+cta_link: "#"
+title: Questions or comments?
+description: Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.
+form: 
+  action: "#"
+  submit: Send Message
+socials:
+- link: "#"
+  icon: fa-twitter
+- link: "#"
+  icon: fa-facebook-f
+- link: "#"
+  icon: fa-instagram
+- link: "#"
+  icon: fa-github
+- link: "#"
+  icon: fa-dribbble

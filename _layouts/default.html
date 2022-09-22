@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	{%- include head.html -%}
+
+	<body class="is-preload">
+
+     {%- include header-body.html -%}
+
+		<!-- Main -->
+			<div id="main">
+                {%- include header-main.html -%}
+                {{content}}
+				{%- assign f = site.data.footer -%}
+				<footer class="major container medium">
+					<h3>{{f.subtitle}}</h3>
+					<p>{{f.text}}</p>
+						<a href="{{f.cta_link}}" class="button">{{f.cta_name}}</a>
+				</footer>
+			</div>
+            
+            {%- include footer.html -%}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
